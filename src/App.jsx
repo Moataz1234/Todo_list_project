@@ -112,7 +112,6 @@ export default function App() {
                 className="form-control" 
                 type="text" 
                 placeholder="Enter Task Title"
-                required
               />
             </div>
             <div className="mb-3">
@@ -121,7 +120,6 @@ export default function App() {
                 className="form-control" 
                 placeholder="Enter Task Description"
                 rows="3"
-                required
               ></textarea>
             </div>
             <button className="btn btn-info w-100">Add Task</button>
